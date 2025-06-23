@@ -1,259 +1,432 @@
-[23Jun2025 11:54:51.486] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 46.0.14, --fml.mcVersion, 1.20, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230608.053357, nogui]
-[23Jun2025 11:54:51.491] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[23Jun2025 11:54:51.669] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[23Jun2025 11:54:51.727] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/server1/servidor_minecraft/config/fml.toml is not correct. Correcting
-[23Jun2025 11:54:51.735] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[23Jun2025 11:54:52.074] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20-46.0.14/fmlcore-1.20-46.0.14.jar is missing mods.toml file
-[23Jun2025 11:54:52.078] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20-46.0.14/javafmllanguage-1.20-46.0.14.jar is missing mods.toml file
-[23Jun2025 11:54:52.079] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20-46.0.14/lowcodelanguage-1.20-46.0.14.jar is missing mods.toml file
-[23Jun2025 11:54:52.082] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20-46.0.14/mclanguage-1.20-46.0.14.jar is missing mods.toml file
-[23Jun2025 11:54:52.200] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[23Jun2025 11:54:54.982] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[23Jun2025 11:55:05.966] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 46.0.14, for MC 1.20 with MCP 20230608.053357
-[23Jun2025 11:55:05.973] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v46.0.14 Initialized
-[23Jun2025 11:55:07.162] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[23Jun2025 11:55:07.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 46.0.14 Target: 46.0.14
-[23Jun2025 11:55:09.753] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23Jun2025 11:55:09.818] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20-20230608.053357/server-1.20-20230608.053357-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[23Jun2025 11:55:09.819] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20-20230608.053357/server-1.20-20230608.053357-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[23Jun2025 11:55:13.252] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[23Jun2025 11:55:13.490] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[23Jun2025 11:55:14.515] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20
-[23Jun2025 11:55:14.517] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[23Jun2025 11:55:14.518] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[23Jun2025 11:55:14.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23Jun2025 11:55:14.919] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[23Jun2025 11:55:15.051] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[23Jun2025 11:55:15.250] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23Jun2025 11:55:15.251] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[23Jun2025 11:55:15.253] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23Jun2025 11:55:15.253] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[23Jun2025 11:55:15.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[23Jun2025 11:55:15.298] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 11:55:15.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[23Jun2025 11:55:15.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[23Jun2025 11:55:15.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[23Jun2025 11:55:15.318] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[23Jun2025 11:55:15.318] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[23Jun2025 11:55:15.319] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[23Jun2025 11:55:15.385] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[23Jun2025 11:55:29.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[23Jun2025 11:55:31.334] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:31.338] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:31.341] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:31.352] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:31.685] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:32.397] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:32.877] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:33.222] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:33.686] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:34.350] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:34.688] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:35.241] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:35.693] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:36.187] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:36.772] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:37.198] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:37.720] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:38.202] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:38.696] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:39.203] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:39.742] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:40.199] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:40.688] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:41.238] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:41.719] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:42.185] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:42.693] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:43.230] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:43.694] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:44.185] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:44.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:45.192] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:45.772] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:46.262] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:46.708] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:47.197] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:47.713] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:48.271] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:48.692] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:49.189] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:49.688] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:50.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:50.740] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:51.204] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:51.701] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:52.220] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:52.694] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:53.185] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:53.823] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:54.222] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:54.687] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:55.199] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:55.721] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:56.186] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:56.737] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:57.185] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:57.685] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:58.186] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:58.692] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:59.188] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:55:59.721] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:00.211] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:00.735] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:01.185] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:01.709] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:02.187] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:02.701] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:03.200] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:03.709] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:04.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:04.726] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:05.194] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:05.756] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:06.184] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:06.685] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:07.207] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:07.707] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:08.188] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:08.697] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:09.192] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:09.694] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:10.198] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:10.715] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:11.200] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:11.687] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:12.210] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:12.689] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:13.187] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:13.696] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:14.190] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:14.693] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:15.185] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:15.729] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:16.193] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:16.685] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:17.232] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:17.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:18.185] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:18.687] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:19.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:19.708] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:21.336] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:21.337] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:21.338] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:21.729] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:22.184] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:22.687] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:23.187] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:23.687] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:24.195] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:24.692] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:25.206] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:25.726] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:26.205] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:26.693] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:27.200] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:27.790] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 11:56:28.269] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[23Jun2025 11:56:28.722] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[23Jun2025 11:56:29.184] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[23Jun2025 11:56:29.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[23Jun2025 11:56:30.447] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[23Jun2025 11:56:31.727] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 62043 ms
-[23Jun2025 11:56:31.728] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (76.442s)! For help, type "help"
-[23Jun2025 11:56:31.745] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[23Jun2025 11:58:58.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[23Jun2025 11:58:58.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1<--[HERE]
-[23Jun2025 12:00:04.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
-[23Jun2025 12:00:04.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
-[23Jun2025 12:00:04.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[23Jun2025 12:00:04.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
-[23Jun2025 12:00:04.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
-[23Jun2025 12:00:04.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
-[23Jun2025 12:00:04.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
-[23Jun2025 12:00:04.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
-[23Jun2025 12:00:04.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
-[23Jun2025 12:00:04.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
-[23Jun2025 12:00:04.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
-[23Jun2025 12:00:04.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
-[23Jun2025 12:00:04.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
-[23Jun2025 12:00:04.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
-[23Jun2025 12:00:04.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
-[23Jun2025 12:00:04.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
-[23Jun2025 12:00:04.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
-[23Jun2025 12:00:04.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[23Jun2025 12:00:04.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
-[23Jun2025 12:00:04.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
-[23Jun2025 12:00:04.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
-[23Jun2025 12:00:04.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
-[23Jun2025 12:00:04.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[23Jun2025 12:00:04.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
-[23Jun2025 12:00:04.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
-[23Jun2025 12:00:04.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
-[23Jun2025 12:00:04.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
-[23Jun2025 12:00:04.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
-[23Jun2025 12:00:04.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
-[23Jun2025 12:00:04.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
-[23Jun2025 12:00:04.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
-[23Jun2025 12:00:04.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
-[23Jun2025 12:00:04.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
-[23Jun2025 12:00:04.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
-[23Jun2025 12:00:04.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
-[23Jun2025 12:00:04.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
-[23Jun2025 12:00:04.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[23Jun2025 12:00:04.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
-[23Jun2025 12:00:04.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
-[23Jun2025 12:00:04.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
-[23Jun2025 12:00:04.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
-[23Jun2025 12:00:04.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
-[23Jun2025 12:00:04.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
-[23Jun2025 12:00:04.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
-[23Jun2025 12:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
-[23Jun2025 12:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
-[23Jun2025 12:00:04.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
-[23Jun2025 12:00:04.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
-[23Jun2025 12:00:04.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
-[23Jun2025 12:00:04.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[23Jun2025 12:00:04.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[23Jun2025 12:00:04.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
-[23Jun2025 12:00:04.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
-[23Jun2025 12:00:04.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
-[23Jun2025 12:00:04.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
-[23Jun2025 12:00:04.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
-[23Jun2025 12:00:04.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
-[23Jun2025 12:00:04.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
-[23Jun2025 12:00:04.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
-[23Jun2025 12:00:04.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
-[23Jun2025 12:00:04.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[23Jun2025 12:00:04.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
-[23Jun2025 12:00:04.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
-[23Jun2025 12:00:04.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
-[23Jun2025 12:00:04.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
-[23Jun2025 12:00:04.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
-[23Jun2025 12:00:04.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
-[23Jun2025 12:00:04.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
-[23Jun2025 12:00:04.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
-[23Jun2025 12:00:04.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
-[23Jun2025 12:00:04.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
-[23Jun2025 12:00:04.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
-[23Jun2025 12:00:04.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
-[23Jun2025 12:00:04.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
-[23Jun2025 12:00:04.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
-[23Jun2025 12:00:04.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
-[23Jun2025 12:00:04.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
-[23Jun2025 12:00:04.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
-[23Jun2025 12:00:04.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
-[23Jun2025 12:00:04.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
-[23Jun2025 12:00:04.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
-[23Jun2025 12:00:13.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[23Jun2025 12:00:13.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[23Jun2025 12:00:13.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[23Jun2025 12:00:13.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[23Jun2025 12:00:15.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23Jun2025 12:00:18.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23Jun2025 12:00:18.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23Jun2025 12:00:18.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23Jun2025 12:00:18.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23Jun2025 12:00:18.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23Jun2025 12:00:18.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Jun2025 12:11:29.151] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 46.0.14, --fml.mcVersion, 1.20, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230608.053357, nogui]
+[23Jun2025 12:11:29.158] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[23Jun2025 12:11:29.431] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[23Jun2025 12:11:29.835] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20-46.0.14/fmlcore-1.20-46.0.14.jar is missing mods.toml file
+[23Jun2025 12:11:29.837] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20-46.0.14/javafmllanguage-1.20-46.0.14.jar is missing mods.toml file
+[23Jun2025 12:11:29.838] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20-46.0.14/lowcodelanguage-1.20-46.0.14.jar is missing mods.toml file
+[23Jun2025 12:11:29.840] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20-46.0.14/mclanguage-1.20-46.0.14.jar is missing mods.toml file
+[23Jun2025 12:11:30.078] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[23Jun2025 12:11:33.555] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Jun2025 12:11:33.834] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
+[23Jun2025 12:11:33.842] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[23Jun2025 12:11:45.305] [modloading-worker-0/INFO] [Easy NPC/]: Initializing Easy NPC (Forge) ...
+[23Jun2025 12:11:45.307] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Debug Manager ...
+[23Jun2025 12:11:45.312] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Detected debug log level for Easy NPC with ALL!
+[23Jun2025 12:11:45.314] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Adjusting log level for Easy NPC from ALL to INFO, for performance reasons!
+[23Jun2025 12:11:45.317] [modloading-worker-0/INFO] [Easy NPC/]: [Debug Manager] Add new logger config for Easy NPC with level INFO ...
+[23Jun2025 12:11:45.322] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Constants ...
+[23Jun2025 12:11:45.331] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Entities Types ...
+[23Jun2025 12:11:45.368] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks ...
+[23Jun2025 12:11:45.380] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks Entity Types ...
+[23Jun2025 12:11:45.381] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Items ...
+[23Jun2025 12:11:45.412] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Handler ...
+[23Jun2025 12:11:45.414] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 46.0.14, for MC 1.20 with MCP 20230608.053357
+[23Jun2025 12:11:45.416] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v46.0.14 Initialized
+[23Jun2025 12:11:45.478] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC common config ...
+[23Jun2025 12:11:45.488] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Types ...
+[23Jun2025 12:11:45.513] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Message Handler ...
+[23Jun2025 12:11:45.546] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC client config ...
+[23Jun2025 12:11:47.046] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[23Jun2025 12:11:47.048] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[23Jun2025 12:11:47.050] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.051] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.052] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.056] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.057] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.057] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.058] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.062] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.062] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.064] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[23Jun2025 12:11:47.072] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.073] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.073] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.074] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.074] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.075] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.075] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.075] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.075] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.076] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.076] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.076] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.076] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.076] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.077] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.077] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.080] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.081] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.081] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.082] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.082] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.085] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.086] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.087] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.090] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.091] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.092] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.095] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.099] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.099] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.100] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.102] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.103] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.104] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.105] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[23Jun2025 12:11:47.111] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.NavigationData
+[23Jun2025 12:11:47.113] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ObjectiveData
+[23Jun2025 12:11:47.115] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ObjectiveData
+[23Jun2025 12:11:47.115] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ObjectiveData
+[23Jun2025 12:11:47.116] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.OwnerData
+[23Jun2025 12:11:47.117] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ProfessionData
+[23Jun2025 12:11:47.118] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[23Jun2025 12:11:47.119] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[23Jun2025 12:11:47.119] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[23Jun2025 12:11:47.125] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[23Jun2025 12:11:47.125] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[23Jun2025 12:11:47.127] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[23Jun2025 12:11:47.127] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[23Jun2025 12:11:47.131] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[23Jun2025 12:11:47.131] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[23Jun2025 12:11:47.131] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[23Jun2025 12:11:47.132] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[23Jun2025 12:11:47.132] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[23Jun2025 12:11:47.132] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[23Jun2025 12:11:47.133] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.VariantData
+[23Jun2025 12:11:47.283] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server1/servidor_minecraft/config/easy_npc/easy_npc-common.toml is not correct. Correcting
+[23Jun2025 12:11:47.288] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Main Configuration] was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.289] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Main Configuration].mainConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.290] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Main Configuration].mainConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.290] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Main Configuration].mainConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.292] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Basic Action was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.293] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Basic Action.basicActionConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.293] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Basic Action.basicActionConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.294] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Basic Action.basicActionConfigurationPermissionLevel was corrected from null to its default, 1. 
+[23Jun2025 12:11:47.296] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Dialog Action was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.297] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Dialog Action.dialogActionConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.297] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Dialog Action.dialogActionConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.297] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Dialog Action.dialogActionConfigurationPermissionLevel was corrected from null to its default, 1. 
+[23Jun2025 12:11:47.302] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Distance Action was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.302] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Distance Action.distanceActionConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.304] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Distance Action.distanceActionConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.305] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Action Configuration] Distance Action.distanceActionConfigurationPermissionLevel was corrected from null to its default, 1. 
+[23Jun2025 12:11:47.305] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Abilities Attribute was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.305] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Abilities Attribute.abilitiesAttributeConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.306] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Abilities Attribute.abilitiesAttributeConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.306] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Abilities Attribute.abilitiesAttributeConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.310] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Base Attribute was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.311] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Base Attribute.baseAttributeConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.311] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Base Attribute.baseAttributeConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.312] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Base Attribute.baseAttributeConfigurationPermissionLevel was corrected from null to its default, 1. 
+[23Jun2025 12:11:47.316] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Display Attribute was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.316] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Display Attribute.displayAttributeConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.316] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Display Attribute.displayAttributeConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.316] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Attribute Configuration] Display Attribute.displayAttributeConfigurationPermissionLevel was corrected from null to its default, 1. 
+[23Jun2025 12:11:47.318] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] None Dialog was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.319] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] None Dialog.noneDialogConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.319] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] None Dialog.noneDialogConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.319] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] None Dialog.noneDialogConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.320] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Basic Dialog was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.320] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Basic Dialog.basicDialogConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.320] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Basic Dialog.basicDialogConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.320] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Basic Dialog.basicDialogConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.323] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Yes/No Dialog was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.324] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Yes/No Dialog.yesNoDialogConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.325] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Yes/No Dialog.yesNoDialogConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.325] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Yes/No Dialog.yesNoDialogConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.328] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Advanced Dialog was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.329] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Advanced Dialog.advancedDialogConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.329] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Advanced Dialog.advancedDialogConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.329] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Dialog Configuration] Advanced Dialog.advancedDialogConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.331] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] None Skin was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.331] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] None Skin.noneSkinConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.332] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] None Skin.noneSkinConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.333] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] None Skin.noneSkinConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.334] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Default Skin was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.335] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Default Skin.defaultSkinConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.335] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Default Skin.defaultSkinConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.338] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Default Skin.defaultSkinConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Player Skin was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Player Skin.playerSkinConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.341] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Player Skin.playerSkinConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.341] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Player Skin.playerSkinConfigurationPermissionLevel was corrected from null to its default, 1. 
+[23Jun2025 12:11:47.345] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] URL Skin was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.345] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] URL Skin.urlSkinConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.346] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] URL Skin.urlSkinConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.346] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] URL Skin.urlSkinConfigurationPermissionLevel was corrected from null to its default, 1. 
+[23Jun2025 12:11:47.350] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Custom Skin was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.351] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Custom Skin.customSkinConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.351] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Custom Skin.customSkinConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.351] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Skin Configuration] Custom Skin.customSkinConfigurationPermissionLevel was corrected from null to its default, 2. 
+[23Jun2025 12:11:47.354] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Default Pose was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.354] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Default Pose.defaultPoseConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.355] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Default Pose.defaultPoseConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.356] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Default Pose.defaultPoseConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.358] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.358] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.advancedPoseConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.359] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.advancedPoseConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.360] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.advancedPoseConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.360] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Pose Configuration] Custom Pose was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.361] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Pose Configuration] Custom Pose.customPoseConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.362] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Pose Configuration] Custom Pose.customPoseConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.363] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Pose Configuration] Custom Pose.customPoseConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.363] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Equipment Configuration] was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.364] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Equipment Configuration].equipmentConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.364] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Equipment Configuration].equipmentConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.365] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Equipment Configuration].equipmentConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.365] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Position Configuration] was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.365] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Position Configuration].defaultPositionConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.365] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Position Configuration].defaultPositionConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.367] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Position Configuration].defaultPositionConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.368] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Rotation Configuration] was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.368] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Rotation Configuration].defaultRotationConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.368] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Rotation Configuration].defaultRotationConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.368] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Rotation Configuration].defaultRotationConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.368] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Scale Configuration] was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.368] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Scale Configuration].scaleConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.369] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Scale Configuration].scaleConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.369] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Scale Configuration].scaleConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.370] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Export Configuration] Export Custom Preset was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.370] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Export Configuration] Export Custom Preset.customExportPresetConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.371] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Export Configuration] Export Custom Preset.customExportPresetConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.372] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Export Configuration] Export Custom Preset.customExportPresetConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.374] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Export Configuration] Export World Preset was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.375] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Export Configuration] Export World Preset.worldExportPresetConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.376] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Export Configuration] Export World Preset.worldExportPresetConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.376] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Export Configuration] Export World Preset.worldExportPresetConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.377] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Default Preset was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.377] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Default Preset.defaultImportPresetConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.377] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Default Preset.defaultImportPresetConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.378] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Default Preset.defaultImportPresetConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.378] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Custom Preset was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.379] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Custom Preset.customImportPresetConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.379] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Custom Preset.customImportPresetConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.379] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Custom Preset.customImportPresetConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.380] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Server Preset was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.381] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Server Preset.worldImportPresetConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.382] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Server Preset.worldImportPresetConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.382] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Import Configuration] Import Server Preset.worldImportPresetConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.383] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Default Trading was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.384] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Default Trading.noneTradingConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.384] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Default Trading.noneTradingConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.384] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Default Trading.noneTradingConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.384] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Basic Trading was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.386] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Basic Trading.basicTradingConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.387] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Basic Trading.basicTradingConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.387] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Basic Trading.basicTradingConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.388] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Advanced Trading was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.388] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Advanced Trading.advancedTradingConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.389] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Advanced Trading.advancedTradingConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.391] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Advanced Trading.advancedTradingConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.393] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Custom Trading was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.393] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Custom Trading.customTradingConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.393] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Custom Trading.customTradingConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.394] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Trading Configuration] Custom Trading.customTradingConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.394] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Basic Objective was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.397] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Basic Objective.basicObjectiveConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.398] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Basic Objective.basicObjectiveConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.398] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Basic Objective.basicObjectiveConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.399] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Attack Objective was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.399] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Attack Objective.attackObjectiveConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.399] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Attack Objective.attackObjectiveConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.401] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Attack Objective.attackObjectiveConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.402] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Follow Objective was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.402] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Follow Objective.followObjectiveConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.403] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Follow Objective.followObjectiveConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.405] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Follow Objective.followObjectiveConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.407] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Look Objective was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.407] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Look Objective.lookObjectiveConfigurationEnabled was corrected from null to its default, true. 
+[23Jun2025 12:11:47.407] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Look Objective.lookObjectiveConfigurationAllowInCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:47.407] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key [Pose Configuration] Advanced Pose.[Objective Configuration] Look Objective.lookObjectiveConfigurationPermissionLevel was corrected from null to its default, 0. 
+[23Jun2025 12:11:47.425] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server1/servidor_minecraft/config/biomesoplenty/generation.toml is not correct. Correcting
+[23Jun2025 12:11:47.425] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overworld was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:47.425] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overworld.bop_primary_overworld_region_weight was corrected from null to its default, 10. 
+[23Jun2025 12:11:47.426] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overworld.bop_secondary_overworld_region_weight was corrected from null to its default, 8. 
+[23Jun2025 12:11:47.427] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overworld.bop_nether_region_weight was corrected from null to its default, 13. 
+[23Jun2025 12:11:47.427] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overworld.bop_overworld_rare_region_weight was corrected from null to its default, 2. 
+[23Jun2025 12:11:47.428] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key overworld.bop_nether_rare_region_weight was corrected from null to its default, 2. 
+[23Jun2025 12:11:47.437] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler for net.minecraftforge.network.simple.SimpleChannel@736c3410 with version 18 ...
+[23Jun2025 12:11:47.906] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[23Jun2025 12:11:47.910] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[23Jun2025 12:11:47.910] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[23Jun2025 12:11:47.910] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[23Jun2025 12:11:47.910] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[23Jun2025 12:11:47.910] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[23Jun2025 12:11:47.910] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[23Jun2025 12:11:47.950] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[23Jun2025 12:11:47.951] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[23Jun2025 12:11:47.955] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[23Jun2025 12:11:47.956] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[23Jun2025 12:11:48.115] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[23Jun2025 12:11:48.179] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[23Jun2025 12:11:48.195] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[23Jun2025 12:11:48.199] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[23Jun2025 12:11:48.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://maxhenkel.de/update/trade_cycling.json
+[23Jun2025 12:11:51.657] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Jun2025 12:11:52.929] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: UP_TO_DATE Current: 1.20-1.0.5 Target: null
+[23Jun2025 12:11:52.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Jun2025 12:11:53.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 46.0.14 Target: 46.0.14
+[23Jun2025 12:11:53.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[23Jun2025 12:11:53.329] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20-20230608.053357/server-1.20-20230608.053357-srg.jar%23121!/assets/.mcassetsroot' uses unexpected schema
+[23Jun2025 12:11:53.329] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20-20230608.053357/server-1.20-20230608.053357-srg.jar%23121!/data/.mcassetsroot' uses unexpected schema
+[23Jun2025 12:11:53.551] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.20-1.0.3 Target: null
+[23Jun2025 12:11:56.119] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC /easy_npc commands for Easy NPC ...
+[23Jun2025 12:11:57.712] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23Jun2025 12:11:58.043] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1549 advancements
+[23Jun2025 12:11:59.108] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20
+[23Jun2025 12:11:59.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Jun2025 12:11:59.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Jun2025 12:11:59.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Jun2025 12:11:59.380] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Jun2025 12:11:59.469] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23Jun2025 12:11:59.621] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23Jun2025 12:11:59.621] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[23Jun2025 12:11:59.622] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23Jun2025 12:11:59.623] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[23Jun2025 12:11:59.653] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/corpse-server.toml is not correct. Correcting
+[23Jun2025 12:11:59.654] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:59.655] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:59.656] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.only_owner was corrected from null to its default, false. 
+[23Jun2025 12:11:59.657] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.skeleton was corrected from null to its default, false. 
+[23Jun2025 12:11:59.657] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:59.657] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.time was corrected from null to its default, 600. 
+[23Jun2025 12:11:59.658] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.force_time was corrected from null to its default, -1. 
+[23Jun2025 12:11:59.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.skeleton_time was corrected from null to its default, 72000. 
+[23Jun2025 12:11:59.661] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lie_on_face was corrected from null to its default, false. 
+[23Jun2025 12:11:59.662] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.show_equipment was corrected from null to its default, true. 
+[23Jun2025 12:11:59.662] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.fall_into_void was corrected from null to its default, false. 
+[23Jun2025 12:11:59.662] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lava_damage was corrected from null to its default, false. 
+[23Jun2025 12:11:59.665] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key death_storage_duration was corrected from null to its default, -1. 
+[23Jun2025 12:11:59.670] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
+[23Jun2025 12:11:59.671] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 12:11:59.671] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[23Jun2025 12:11:59.673] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[23Jun2025 12:11:59.674] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[23Jun2025 12:12:00.602] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[23Jun2025 12:12:00.604] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[23Jun2025 12:12:00.605] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Jun2025 12:12:15.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Jun2025 12:12:22.232] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.240] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.243] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.245] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.254] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.255] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.258] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.266] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.271] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.274] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.281] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.284] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.286] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.297] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.338] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:22.838] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:23.337] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:23.838] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jun2025 12:12:24.414] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9078 ms
+[23Jun2025 12:12:24.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (24.768s)! For help, type "help"
+[23Jun2025 12:12:24.440] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Jun2025 12:12:49.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[23Jun2025 12:12:49.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: y<--[HERE]
+[23Jun2025 12:12:56.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
+[23Jun2025 12:12:56.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
+[23Jun2025 12:12:56.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[23Jun2025 12:12:56.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
+[23Jun2025 12:12:56.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
+[23Jun2025 12:12:56.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
+[23Jun2025 12:12:56.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
+[23Jun2025 12:12:56.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
+[23Jun2025 12:12:56.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
+[23Jun2025 12:12:56.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
+[23Jun2025 12:12:56.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
+[23Jun2025 12:12:56.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
+[23Jun2025 12:12:56.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
+[23Jun2025 12:12:56.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
+[23Jun2025 12:12:56.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
+[23Jun2025 12:12:56.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
+[23Jun2025 12:12:56.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
+[23Jun2025 12:12:56.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[23Jun2025 12:12:56.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
+[23Jun2025 12:12:56.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
+[23Jun2025 12:12:56.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
+[23Jun2025 12:12:56.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
+[23Jun2025 12:12:56.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[23Jun2025 12:12:56.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
+[23Jun2025 12:12:56.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
+[23Jun2025 12:12:56.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
+[23Jun2025 12:12:56.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
+[23Jun2025 12:12:56.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
+[23Jun2025 12:12:56.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
+[23Jun2025 12:12:56.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
+[23Jun2025 12:12:56.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
+[23Jun2025 12:12:56.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
+[23Jun2025 12:12:56.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
+[23Jun2025 12:12:56.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
+[23Jun2025 12:12:56.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
+[23Jun2025 12:12:56.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
+[23Jun2025 12:12:56.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[23Jun2025 12:12:56.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
+[23Jun2025 12:12:56.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
+[23Jun2025 12:12:56.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
+[23Jun2025 12:12:56.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
+[23Jun2025 12:12:56.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
+[23Jun2025 12:12:56.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
+[23Jun2025 12:12:56.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
+[23Jun2025 12:12:56.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
+[23Jun2025 12:12:56.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
+[23Jun2025 12:12:56.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
+[23Jun2025 12:12:56.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
+[23Jun2025 12:12:56.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
+[23Jun2025 12:12:56.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[23Jun2025 12:12:56.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[23Jun2025 12:12:56.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
+[23Jun2025 12:12:56.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
+[23Jun2025 12:12:56.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
+[23Jun2025 12:12:56.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
+[23Jun2025 12:12:56.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
+[23Jun2025 12:12:56.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
+[23Jun2025 12:12:56.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
+[23Jun2025 12:12:56.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
+[23Jun2025 12:12:56.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
+[23Jun2025 12:12:56.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[23Jun2025 12:12:56.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
+[23Jun2025 12:12:56.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
+[23Jun2025 12:12:56.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
+[23Jun2025 12:12:56.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
+[23Jun2025 12:12:56.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
+[23Jun2025 12:12:56.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
+[23Jun2025 12:12:56.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
+[23Jun2025 12:12:56.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
+[23Jun2025 12:12:56.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
+[23Jun2025 12:12:56.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
+[23Jun2025 12:12:56.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
+[23Jun2025 12:12:56.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
+[23Jun2025 12:12:56.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
+[23Jun2025 12:12:56.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
+[23Jun2025 12:12:56.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
+[23Jun2025 12:12:56.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
+[23Jun2025 12:12:56.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
+[23Jun2025 12:12:56.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
+[23Jun2025 12:12:56.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /easy_npc (configure|debug|dialog|navigation|owner|preset|trading)
+[23Jun2025 12:12:56.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
+[23Jun2025 12:12:56.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
+[23Jun2025 12:12:56.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jade (show|hide)
+[23Jun2025 12:12:56.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deathhistory (<player>|<player_uuid>)
+[23Jun2025 12:14:36.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[23Jun2025 12:14:36.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: save off<--[HERE]
+[23Jun2025 12:14:58.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[23Jun2025 12:14:58.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: star<--[HERE]
+[23Jun2025 12:15:17.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[23Jun2025 12:15:17.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Jun2025 12:15:17.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Jun2025 12:15:17.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Jun2025 12:15:19.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23Jun2025 12:15:21.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23Jun2025 12:15:21.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23Jun2025 12:15:21.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23Jun2025 12:15:21.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Jun2025 12:15:21.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Jun2025 12:15:21.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
